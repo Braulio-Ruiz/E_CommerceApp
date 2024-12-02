@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E-Commerce App</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrar</string>
+    <string name="welcome_message">¡Bienvenido a la App de E-Commerce!</string>
+    <string name="email_hint">Correo Electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="btn_generate_budget">Generar Presupuesto</string>
+    <string name="btn_contact_operator">Contactar Operador</string>
+    <string name="btn_view_forum">Ver Foro</string>
+    <string name="message_sent">Mensaje enviado</string>
+    <string name="message_empty">El mensaje no puede estar vacío</string>
+
+    <string name="budget_title">Calcular Presupuesto</string>
+    <string name="enter_product_quantity">Cantidad de productos</string>
+    <string name="enter_product_price">Precio por producto</string>
+    <string name="calculate_budget">Calcular</string>
+    <string name="result_placeholder">El resultado aparecerá aquí</string>
+    <string name="budget_total">Presupuesto total: $%.2f</string>
+    <string name="error_empty_fields">Por favor, completa todos los campos</string>
+    <string name="error_invalid_input">Entrada no válida</string>
+
+    <string name="contact_operator_title">Contactar Operador</string>
+    <string name="message_hint">Escribe tu mensaje aquí</string>
+    <string name="send_message">Enviar</string>
+    <string name="message_sent_success">Mensaje enviado con éxito</string>
+    <string name="error_message_empty">El mensaje no puede estar vacío</string>
+
+    <string name="forum_title">Foro de Usuarios</string>
+    <string name="btn_add_question">Agregar Pregunta</string>
+    <string name="add_question_title">Nueva Pregunta</string>
+    <string name="question_hint">Escribe tu pregunta</string>
+    <string name="add">Agregar</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="login_success">Acceso concedido</string>
+    <string name="login_error">Acceso denegado</string>
+</resources>
