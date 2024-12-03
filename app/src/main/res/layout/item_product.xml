@@ -23,8 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Producto"
-        android:textSize="18sp"
-        android:textColor="@android:color/black" />
+        android:textSize="18sp" />
 
     <!-- Precio del producto -->
     <TextView
@@ -33,6 +32,5 @@
         android:layout_height="wrap_content"
         android:text="$0.00"
         android:textSize="16sp"
-        android:textColor="@android:color/darker_gray"
         android:gravity="end" />
 </LinearLayout>

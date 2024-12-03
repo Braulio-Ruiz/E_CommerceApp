@@ -13,9 +13,11 @@
         android:id="@+id/tv_welcome_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="34sp"
         android:text="@string/welcome_message"
         android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
         android:textColor="@color/primary"
+        android:fontFamily="sans-serif-black"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +32,8 @@
         android:layout_marginBottom="16dp"
         app:layout_constraintTop_toBottomOf="@id/tv_welcome_message"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp" />
 
     <!-- Botón para Contactar al Operador -->
     <com.google.android.material.button.MaterialButton
@@ -41,7 +44,8 @@
         android:layout_marginBottom="16dp"
         app:layout_constraintTop_toBottomOf="@id/btn_generate_budget"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp" />
 
     <!-- Botón para Ver el Foro -->
     <com.google.android.material.button.MaterialButton
@@ -51,5 +55,20 @@
         android:text="@string/btn_view_forum"
         app:layout_constraintTop_toBottomOf="@id/btn_contact_operator"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp" />
+
+    <!-- Pie de página -->
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/footer"
+        android:textColor="@color/secondary"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
