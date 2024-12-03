@@ -17,7 +17,8 @@
         android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/primary" />
 
     <!-- EditText para ingresar el mensaje -->
     <com.google.android.material.textfield.TextInputLayout
