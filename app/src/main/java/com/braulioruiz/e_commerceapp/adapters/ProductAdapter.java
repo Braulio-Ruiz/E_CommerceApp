@@ -74,9 +74,11 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
         public void bind(final Product product) {
             tvProductName.setText(product.getName());
             tvProductPrice.setText(String.format("$%.2f", product.getPrice()));
-            cbProduct.setOnCheckedChangeListener(null); // Evitar conflictos al reutilizar vistas
+            cbProduct.setOnCheckedChangeListener(null); // Evitar conflictos
 
+            cbProduct.setChecked(product.isSelected()); // Configurar estado inicial
             cbProduct.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                product.setSelected(isChecked); // Actualizar modelo
                 if (listener != null) {
                     listener.onProductCheckedChange(product, isChecked);
                 }

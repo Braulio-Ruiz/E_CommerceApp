@@ -1,18 +1,38 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.ECommerceApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
+        <!-- Customizing the light theme (Uncomment and define if needed) -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Example for customizing text colors in light theme -->
+        <!-- <item name="android:textColorPrimary">@color/primary_text_color</item> -->
     </style>
 
     <!-- Base application theme -->
     <style name="Theme.ECommerceApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorPrimaryVariant">@color/primary_variant</item>
-        <item name="colorSecondary">@color/secondary</item>
-        <item name="colorSecondaryVariant">@color/secondary_variant</item>
-        <item name="colorSurface">@color/surface</item>
-        <item name="colorError">@color/error</item>
-        <item name="android:statusBarColor">@color/primary_variant</item>
+        <!-- Colores principales de la aplicación -->
+        <item name="colorPrimary">@color/primary</item> <!-- Color principal -->
+        <item name="colorPrimaryVariant">@color/primary_variant</item> <!-- Variante más oscura del
+        color principal -->
+        <item name="colorSecondary">@color/secondary</item> <!-- Color secundario -->
+        <item name="colorSecondaryVariant">@color/secondary_variant</item> <!-- Variante del color
+        secundario -->
+        <item name="colorSurface">@color/surface</item> <!-- Color para superficies, como tarjetas -->
+        <item name="colorError">@color/error</item> <!-- Color para errores -->
+
+        <!-- Colores de texto -->
+        <item name="android:textColorPrimary">@color/on_background</item> <!-- Texto principal (por
+        ejemplo, títulos) -->
+        <item name="android:textColorSecondary">@color/on_surface</item> <!-- Texto secundario (por
+        ejemplo, descripciones) -->
+
+        <!-- Color de la barra de estado -->
+        <item name="android:statusBarColor">@color/primary_variant</item> <!-- Barra de estado,
+        generalmente color oscuro -->
+
+        <!-- Personalización adicional del tema claro -->
+        <item name="android:windowBackground">@color/background</item> <!-- Color de fondo de la
+        ventana -->
+        <!-- Comentado por si usas material buttons -->
+        <!-- <item name="colorButtonNormal">@color/primary</item> -->
     </style>
 </resources>

@@ -29,8 +29,8 @@ public class ForumActivity extends AppCompatActivity {
 
         // Inicializar lista de preguntas
         questions = new ArrayList<>();
-        questions.add(new Question("¿Cuál es el tiempo de envío?", "Usuario1"));
-        questions.add(new Question("¿Tienen devoluciones?", "Usuario2"));
+        questions.add(new Question("¿Cuál es el tiempo de envío?", "Usuario1", "Envíos", System.currentTimeMillis()));
+        questions.add(new Question("¿Tienen devoluciones?", "Usuario2", "Devoluciones", System.currentTimeMillis()));
 
         // Configurar RecyclerView
         RecyclerView rvQuestions = findViewById(R.id.rv_questions);
@@ -59,7 +59,8 @@ public class ForumActivity extends AppCompatActivity {
         builder.setPositiveButton(getString(R.string.add), (dialog, which) -> {
             String questionText = etQuestion.getText().toString().trim();
             if (!questionText.isEmpty()) {
-                questions.add(new Question(questionText, "Usuario Anónimo"));
+                // Aquí, ahora se deben pasar los nuevos parámetros: categoría y timestamp
+                questions.add(new Question(questionText, "Usuario Anónimo", "General", System.currentTimeMillis()));
                 questionAdapter.notifyItemInserted(questions.size() - 1);
             }
         });

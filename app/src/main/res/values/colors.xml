@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#6200EE</color>
-    <color name="primary_variant">#3700B3</color>
-    <color name="secondary">#03DAC6</color>
-    <color name="secondary_variant">#018786</color>
-    <color name="background">#FFFFFF</color>
-    <color name="surface">#FFFFFF</color>
-    <color name="on_primary">#FFFFFF</color>
-    <color name="on_secondary">#000000</color>
-    <color name="on_background">#000000</color>
-    <color name="on_surface">#000000</color>
-    <color name="error">#B00020</color>
-    <color name="on_error">#FFFFFF</color>
+    <!-- Colores primarios y secundarios -->
+    <color name="primary">#6200EE</color> <!-- Color principal, utilizado para botones y elementos
+    destacados -->
+    <color name="primary_variant">#3700B3</color> <!-- Variante más oscura del color principal -->
+    <color name="secondary">#03DAC6</color> <!-- Color secundario, usado en elementos secundarios
+    como botones flotantes -->
+    <color name="secondary_variant">#018786</color> <!-- Variante del color secundario -->
+
+    <!-- Colores de fondo y superficies -->
+    <color name="background">#FFFFFF</color> <!-- Fondo principal de la aplicación -->
+    <color name="surface">#FFFFFF</color> <!-- Superficie, utilizado para tarjetas y cuadros de texto -->
+
+    <!-- Colores de texto -->
+    <color name="on_primary">#FFFFFF</color> <!-- Color de texto sobre elementos primarios -->
+    <color name="on_secondary">#000000</color> <!-- Color de texto sobre elementos secundarios -->
+    <color name="on_background">#000000</color> <!-- Color de texto sobre el fondo -->
+    <color name="on_surface">#000000</color> <!-- Color de texto sobre superficies -->
+
+    <!-- Colores de error -->
+    <color name="error">#B00020</color> <!-- Color utilizado para mostrar errores -->
+    <color name="on_error">#FFFFFF</color> <!-- Color de texto sobre elementos de error -->
+
+    <!-- Colores adicionales (opcional, según la app) -->
+    <color name="disabled_button">#B0BEC5</color> <!-- Color de botones deshabilitados -->
+    <color name="loading_spinner">#6200EE</color> <!-- Color del indicador de carga -->
+    <color name="highlight">#FFD600</color> <!-- Color para resaltar elementos importantes -->
 </resources>
