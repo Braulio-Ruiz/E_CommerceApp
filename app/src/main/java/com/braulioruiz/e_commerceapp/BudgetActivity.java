@@ -46,6 +46,9 @@ public class BudgetActivity extends AppCompatActivity {
         productList.add(new Product("Producto 1", 10.0));
         productList.add(new Product("Producto 2", 20.0));
         productList.add(new Product("Producto 3", 15.0));
+        productList.add(new Product("Producto 4", 30.0));
+        productList.add(new Product("Producto 5", 10.0));
+        productList.add(new Product("Producto 6", 15.0));
 
         selectedProducts = new ArrayList<>();
 
